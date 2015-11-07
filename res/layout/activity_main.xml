@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.lollipoper.tagimage.view.TAGImageView
+        android:id="@+id/tag_image_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_launcher"
+        tab:imageDescriptName="图片描述"
+        tab:tagBackground="#ff00ff"
+        tab:tagName="HEHE"
+        tab:tagPosition="100dp"
+        tab:tagTextColor="#EEddEE" >
+    </com.lollipoper.tagimage.view.TAGImageView>
+
+</RelativeLayout>

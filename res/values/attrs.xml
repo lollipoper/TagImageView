@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TAGImageView">
+        <!-- 标签名 -->
+        <attr name="tagName" format="reference|string" />
+        <attr name="tagBackground" format="reference|color" />
+        <attr name="tagTextSize" format="reference|dimension" />
+        <attr name="tagTextColor" format="reference|color" />
+        <attr name="tagPosition" format="reference|dimension" />
+        <attr name="tagVisiable" format="boolean" />
+        
+        <attr name="imageDescriptName" format="reference|string" />
+        <attr name="imageDescriptColor" format="reference|color" />
+        <attr name="imageDescriptGravity" >
+        	<enum name="left_bottom" value="0" />
+        	<enum name="right_bottom" value="1" />
+        </attr>
+        <attr name="imageDescriptPadding" format="reference|dimension" />
+        
+    </declare-styleable>
+    
+</resources>
